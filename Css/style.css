@@ -74,7 +74,7 @@ ul li::before{
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url('images\ 81b86079364e5fcca5d9520206b03ccd.jpg');
+    background-image: url('../images/81b86079364e5fcca5d9520206b03ccd.jpg');
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -82,12 +82,39 @@ ul li::before{
 
 }
 
-ul li .checked{
+ul li.checked{
     color: #555;
     text-decoration: line-through;
 
 }
-ul li.checked::before{
-    background-image: url('images/02166240e0314550d90e310da48eb6a6.jpg');
+ul li.checked::before {
+    background-image: url('../images/02166240e0314550d90e310da48eb6a6.jpg');
+  }
+
+#nw-element{
+    border: 1px green solid;
+    padding: 20px;
+    width: 40%;
+    font-size: 17px;
+    display: none;
+    margin: 1%;
+
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul li span:hover{
+    background:#edeefe;
+    border-radius: 50%;
 
 }
